@@ -31,19 +31,19 @@ root.render(
 ); 
 */
 
-/* 챕터6
+//챕터6
 root.render(
   <React.StrictMode>
     <NotificationList />
   </React.StrictMode>
 ); 
-*/
-// 챕터7
+
+/* // 챕터7
 root.render(
   <React.StrictMode>
     <Accommodate />
   </React.StrictMode>
-); 
+);  */
 
 
 // If you want to start measuring performance in your app, pass a function
