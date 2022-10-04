@@ -8,11 +8,12 @@ import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodata';
+import ConfirmButton from './chapter_08/ConfirmButton';
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-
-/* 챕터4
+/* //챕터 4
 setInterval(() => {
   root.render(
     <React.StrictMode>
@@ -20,23 +21,23 @@ setInterval(() => {
     </React.StrictMode>
   );
 }, 1000); 
-*/
+  */
   
 
-/* 챕터5
+/* //챕터5
 root.render(
   <React.StrictMode>
     <CommentList />
   </React.StrictMode>
-); 
-*/
+);  */
 
-//챕터6
+
+/* //챕터6
 root.render(
   <React.StrictMode>
     <NotificationList />
   </React.StrictMode>
-); 
+);  */
 
 /* // 챕터7
 root.render(
@@ -44,6 +45,21 @@ root.render(
     <Accommodate />
   </React.StrictMode>
 );  */
+
+/* // 챕터8
+root.render(
+  <React.StrictMode>
+    <ConfirmButton />
+  </React.StrictMode>
+);  */
+
+// 챕터8
+root.render(
+  <React.StrictMode>
+    <LandingPage />
+  </React.StrictMode>
+); 
+
 
 
 // If you want to start measuring performance in your app, pass a function

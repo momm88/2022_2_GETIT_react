@@ -39,6 +39,7 @@ class NotificationList extends React.Component {
                 });
             }
             else {
+                //배열을 비워주는 작업
                 this.setState({
                     notifications: [],
                 });
